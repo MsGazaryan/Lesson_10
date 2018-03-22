@@ -1,0 +1,26 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.flexBox{
+	width: 700px;
+	height: 400px;
+	margin: 100px auto;
+	background-color: pink;
+	display: flex;
+	justify-content: space-around; /* flex-end/flex-start/center/space-between */
+	flex-direction: column; /* row/row-reverse/column-reverse */
+	align-items: center; /* flex-start/center/flex-end*/
+	flex-wrap: wrap; /* nowrap */
+	align-content: flex-start;
+}
+
+.flexBox .flexItem{
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	border: 5px black solid;
+	background-color: white;
+}
